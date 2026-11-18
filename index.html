@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090b10">
+    <meta name="description" content="Desindu Dinethmin Mendis - Software Engineering undergraduate with experience in Quality Assurance and team leadership.">
+
+    <title>Desindu Mendis | Professional Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">D<span>.</span>M</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="assets/Desindu-CV.pdf"
+               class="nav-cv"
+               download="Desindu-Mendis-CV.pdf">
+                Download CV
+                <i data-lucide="download"></i>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                <i data-lucide="menu"></i>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        OPEN TO OPPORTUNITIES
+                    </div>
+
+                    <p class="hero-intro">HELLO, I'M</p>
+
+                    <h1>
+                        Desindu<br>
+                        <span>Dinethmin Mendis.</span>
+                    </h1>
+
+                    <h2>
+                        <span class="typing-text" id="typingText">
+                            Quality Assurance Professional
+                        </span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Software Engineering undergraduate with professional
+                        experience in Quality Assurance and team leadership.
+                        Interested in building reliable software, improving
+                        business processes, and managing technology projects.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Projects
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+
+                        <a href="assets/Desindu-CV.pdf"
+                           class="btn btn-outline"
+                           download="Desindu-Mendis-CV.pdf">
+                            Download CV
+                            <i data-lucide="download"></i>
+                        </a>
+
+                    </div>
+
+                    <!-- HERO SOCIAL LINKS -->
+                    <div class="social-links">
+
+                        <!-- GITHUB -->
+                        <a href="https://github.com/659797"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="Visit my GitHub profile"
+                           title="GitHub">
+
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="21" height="21">
+                                <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.06c-3.1.67-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.65 1.95 2.93 1.49.1-.72.39-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.27-2.6 5.22-5.08 5.49.4.35.76 1.02.76 2.06V22c0 .29.2.63.77.53A11.1 11.1 0 0 0 12 .9z"/>
+                            </svg>
+
+                        </a>
+
+                        <!-- LINKEDIN -->
+                        <a href="https://www.linkedin.com/in/desindudinethmin/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="Visit my LinkedIn profile"
+                           title="LinkedIn">
+
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="21" height="21">
+                                <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.43c.99 0 1.79-.77 1.79-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+                            </svg>
+
+                        </a>
+
+                        <!-- EMAIL -->
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dinethmindesindu%40gmail.com"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="Send me an email"
+                           title="Email">
+
+                            <i data-lucide="mail"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROFILE CARD -->
+                <div class="hero-visual">
+
+                    <div class="profile-card">
+
+                        <div class="profile-image">
+
+                            <img src="assets/profile.jpg"
+                                 alt="Desindu Dinethmin Mendis"
+                                 onerror="this.style.display='none'; this.parentElement.classList.add('no-image');">
+
+                            <span class="profile-placeholder">DM</span>
+
+                        </div>
+
+                        <div class="profile-info">
+                            <h3>Desindu Mendis</h3>
+                            <p>Software Engineering Undergraduate</p>
+                        </div>
+
+                        <div class="profile-tag tag-one">
+                            <i data-lucide="check-circle"></i>
+                            Quality Assurance
+                        </div>
+
+                        <div class="profile-tag tag-two">
+                            <i data-lucide="briefcase-business"></i>
+                            Team Leadership
+                        </div>
+
+                    </div>
+
+                    <div class="hero-decoration decoration-one"></div>
+                    <div class="hero-decoration decoration-two"></div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom container">
+                <span>BASED IN SRI LANKA</span>
+                <span>SOFTWARE ENGINEERING · TECHNOLOGY · INNOVATION</span>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little about my professional and academic journey.</p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <h3>Combining technology, quality and business thinking.</h3>
+
+                        <p>
+                            I'm Desindu Dinethmin Mendis, a Software Engineering
+                            undergraduate with a background in Quality Assurance
+                            and team leadership.
+                        </p>
+
+                        <p>
+                            I previously worked at Global System Solutions (GSS),
+                            progressing from Quality Assurance Technician to
+                            Team Lead. This experience helped me develop skills
+                            in quality monitoring, performance analysis,
+                            problem-solving, communication and team coordination.
+                        </p>
+
+                        <p>
+                            I'm interested in exploring opportunities across
+                            Quality Assurance, Business Analysis and Project
+                            Management while continuing to develop my technical
+                            knowledge in software engineering.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Let's connect
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="about-details">
+
+                        <div class="detail-card">
+                            <i data-lucide="graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>BEng (Hons) Software Engineering</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <i data-lucide="award"></i>
+                            <div>
+                                <h4>Qualification</h4>
+                                <p>Pearson BTEC Level 5 HND in Software Engineering</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <i data-lucide="briefcase-business"></i>
+                            <div>
+                                <h4>Professional Experience</h4>
+                                <p>Quality Assurance Technician → Team Lead</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Sri Lanka</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">WHAT I CAN DO</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>Technical and professional capabilities developed through learning and experience.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="bug"></i>
+                        </div>
+                        <h3>Quality Assurance</h3>
+                        <ul>
+                            <li>Manual Testing</li>
+                            <li>Test Case Design</li>
+                            <li>Test Scenario Creation</li>
+                            <li>Bug Reporting</li>
+                            <li>Requirements Traceability</li>
+                            <li>Test Execution</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python Fundamentals</li>
+                            <li>SQL & Databases</li>
+                            <li>API Testing Fundamentals</li>
+                            <li>Git & GitHub</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="chart-no-axes-combined"></i>
+                        </div>
+                        <h3>Business Analysis</h3>
+                        <ul>
+                            <li>Requirements Analysis</li>
+                            <li>Documentation</li>
+                            <li>Problem Identification</li>
+                            <li>Process Understanding</li>
+                            <li>Stakeholder Communication</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3>Project & Team Management</h3>
+                        <ul>
+                            <li>Team Coordination</li>
+                            <li>Performance Monitoring</li>
+                            <li>Task Prioritization</li>
+                            <li>Progress Reporting</li>
+                            <li>Problem Solving</li>
+                            <li>Communication</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">MY WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                    <p>Some of the projects I've developed and worked on.</p>
+                </div>
+
+                <div class="project-filters">
+
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="qa">QA Projects</button>
+                    <button class="filter-btn" data-filter="development">Development</button>
+                    <button class="filter-btn" data-filter="business">Business / Management</button>
+
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects are generated using JavaScript -->
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="section experience-section" id="experience">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">MY JOURNEY</p>
+                    <h2>Professional <span>Experience</span></h2>
+                    <p>My professional development and career experience.</p>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">February 2026 – October 2026</span>
+
+                            <h3>Team Lead</h3>
+                            <h4>Global System Solutions (GSS)</h4>
+
+                            <p>
+                                Led and coordinated quality assurance operations,
+                                monitored team performance, reviewed productivity
+                                and accuracy metrics, and supported team members
+                                in achieving operational targets.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">July 2025 – February 2026</span>
+
+                            <h3>Quality Assurance Technician</h3>
+                            <h4>Global System Solutions (GSS)</h4>
+
+                            <p>
+                                Performed quality assurance activities,
+                                monitored output accuracy, identified issues,
+                                followed operational guidelines and maintained
+                                quality standards.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="section education-section" id="education">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">ACADEMIC BACKGROUND</p>
+                    <h2>My <span>Education</span></h2>
+                </div>
+
+                <div class="education-grid">
+
+                    <div class="education-card">
+                        <i data-lucide="graduation-cap"></i>
+                        <span>UNDERGRADUATE DEGREE</span>
+                        <h3>BEng (Hons) Software Engineering</h3>
+                        <p>London Metropolitan University</p>
+                        <p>Through ESOFT</p>
+                    </div>
+
+                    <div class="education-card">
+                        <i data-lucide="book-open"></i>
+                        <span>HIGHER NATIONAL DIPLOMA</span>
+                        <h3>Pearson BTEC Level 5 HND</h3>
+                        <p>Software Engineering</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">GET IN TOUCH</p>
+                    <h2>Let's Work <span>Together</span></h2>
+                    <p>I'm open to professional opportunities and meaningful connections.</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <!-- EMAIL CARD -->
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dinethmindesindu%40gmail.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="contact-card"
+                       aria-label="Send me an email">
+
+                        <i data-lucide="mail"></i>
+
+                        <h3>Email</h3>
+
+                        <p>dinethmindesindu@gmail.com</p>
+
+                    </a>
+
+
+                    <!-- LINKEDIN CARD - INLINE SVG -->
+                    <a href="https://www.linkedin.com/in/desindudinethmin/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="contact-card"
+                       aria-label="Visit my LinkedIn profile">
+
+                        <svg class="contact-brand-icon"
+                             xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24"
+                             width="30"
+                             height="30"
+                             fill="currentColor"
+                             aria-hidden="true">
+
+                            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.78C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.78 24h20.43c.99 0 1.79-.77 1.79-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+
+                        </svg>
+
+                        <h3>LinkedIn</h3>
+
+                        <p>Connect professionally</p>
+
+                    </a>
+
+
+                    <!-- GITHUB CARD - INLINE SVG -->
+                    <a href="https://github.com/659797"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="contact-card"
+                       aria-label="Visit my GitHub profile">
+
+                        <svg class="contact-brand-icon"
+                             xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24"
+                             width="30"
+                             height="30"
+                             fill="currentColor"
+                             aria-hidden="true">
+
+                            <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.06c-3.1.67-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.65 1.95 2.93 1.49.1-.72.39-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.11-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.27-2.6 5.22-5.08 5.49.4.35.76 1.02.76 2.06V22c0 .29.2.63.77.53A11.1 11.1 0 0 0 12 .9z"/>
+
+                        </svg>
+
+                        <h3>GitHub</h3>
+
+                        <p>Explore my repositories</p>
+
+                    </a>
+
+                </div>
+
+
+                <!-- CONTACT BUTTON -->
+                <div class="contact-message">
+
+                    <h3>Have an opportunity in mind?</h3>
+
+                    <p>I'd be happy to connect and discuss how I can contribute.</p>
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dinethmindesindu%40gmail.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-primary">
+
+                        Contact Me
+                        <i data-lucide="arrow-up-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">D<span>.</span>M</a>
+
+            <p>Designed & Developed by Desindu Dinethmin Mendis</p>
+
+            <p>© <span id="currentYear"></span> All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
